@@ -1,0 +1,133 @@
+.myCard {
+    margin: 0 auto;
+    display: inline-block; 
+    margin-top: 50px !important;
+    padding:  10px 20px 15px 15px;
+    width: 750px;
+    color: #808080;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    justify-content: flex-end;
+}
+
+.container {
+    display: table; 
+    width: 480px;
+}
+
+.bullet {
+    display: table-cell;
+    vertical-align: middle;
+    transform: scale(1.5);
+    color: #FD324A;
+}
+
+.cardHeader {
+    margin-left: 27px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000000;
+}
+
+.secondaryText {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+
+.containerIcon {
+    display: inline-block; 
+    width: 500px;
+    padding-left: 30px;
+    margin-top: 10px;
+    text-align: left;
+    
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+    vertical-align: center;
+}
+
+.textIcon {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    padding-left: 0px;
+    vertical-align: center;
+}
+
+.addInfo {
+    display: table;
+    margin: 10px 0 10px 27px;
+    text-align: left;
+}
+
+.addInfo p, .addInfo .bullet {
+    display: table-cell;
+    font-size: 0.9em;
+    width: auto;
+    padding-right: 10px;
+    color: #BABABA;
+}
+
+.addInfo .bullet {
+    transform: scale(0.6em);
+    padding-left: 2px;
+    vertical-align: center;
+}
+
+.userName {
+    color: #868686 !important;
+    font-weight: 600;
+}
+
+.picBlock {
+    width: 100px;
+    margin-right: 0px;
+}
+
+.pic {
+    margin-right: 15px;
+    margin-top: 18px;
+    width: 80px;
+    height: 80px;
+}
+
+.cardTwo .containerIcon {
+    padding-left: 23px;
+}
+
+.cardTwo .cardHeader {
+    margin-bottom: 6px;
+}
+
+.cardTwo .mainContent {
+    width: 500px;
+}
+
+.cardTwo .picBlock {
+    width: 300px;
+    margin: 0px;
+}
+
+.picPeople {
+    width: 200px;
+    border-radius: 5px;
+    margin: 20px 20px 0px 0;
+    float: right;
+}
